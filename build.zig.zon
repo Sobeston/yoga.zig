@@ -1,0 +1,16 @@
+.{
+    .name = "yoga",
+    .version = "3.2.1",
+    .dependencies = .{
+        .yoga_cpp = .{
+            .url = "https://github.com/facebook/yoga/archive/refs/tags/v3.2.1.tar.gz",
+            .hash = "122014efa0755513c50fd016bf2d9590e79fda3374077b0849378e056af6a34c17a5",
+        },
+    },
+    .paths = .{
+        "LICENSE",
+        "README.md",
+        "build.zig",
+        "build.zig.zon",
+    },
+}
